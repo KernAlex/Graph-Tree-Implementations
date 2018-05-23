@@ -1,4 +1,4 @@
-public class BinaryTree<E> implements Tree<E> {
+public class BinaryTree<E extends Comparable<E>> implements Tree<E> {
     private BinaryTree left;
     private BinaryTree right;
     private E item;
@@ -51,5 +51,48 @@ public class BinaryTree<E> implements Tree<E> {
      */
     public E getItem() {
         return item;
+    }
+
+    /**
+     * for inputing values
+     * @param i
+     */
+    public void put(E i) {
+        if (i.compareTo(item) < 0) {
+            if(isTree(left)) {
+                left.put(i);
+            } else {
+                left = new BinaryTree(i);
+            }
+        } else {
+            if (isTree(right)) {
+                right.put(i);
+            }
+            else right = new BinaryTree(i);
+        }
+    }
+
+    /**
+     * looks for item in tree
+     * @param i if tree has item
+     * @return
+     */
+    public boolean hasItem(E i) {
+        if (i.equals(item)) {
+            return true;
+        } else if (i.compareTo(item) < 0) {
+            if (isTree(left)) {
+                return left.hasItem(i);
+            } else {
+                return false;
+            }
+        } else if (true){
+            if (isTree(right)) {
+                return right.hasItem(i);
+            } else {
+                return false;
+            }
+        }
+        return false;
     }
 }
