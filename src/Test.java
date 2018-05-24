@@ -13,5 +13,6 @@ public class Test {
         System.out.println(temp.hasItem(4));
         System.out.println(temp.hasItem(6));
         System.out.println(temp.hasItem(10));
+        System.out.println(temp.getSize());
     }
 }

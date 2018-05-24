@@ -1,8 +1,10 @@
 public class BinaryTree<E extends Comparable<E>> implements Tree<E> {
-    private BinaryTree left;
-    private BinaryTree right;
-    private E item;
 
+    public BinaryTree left;
+    public BinaryTree right;
+    public E item;
+
+    private int size;
     /**
      * Just a basic tree, no items yet.
      * @param item
@@ -11,14 +13,7 @@ public class BinaryTree<E extends Comparable<E>> implements Tree<E> {
         this.item = item;
         this.left = null;
         this.right = null;
-    }
-    /**
-     * Adds trees on the left and right
-     */
-    public BinaryTree(E item, BinaryTree l, BinaryTree r) {
-        this.item = item;
-        this.left = l;
-        this.right = r;
+        this.size = 1;
     }
     /**
      * More or less to check if the Tree is null or not
@@ -58,6 +53,7 @@ public class BinaryTree<E extends Comparable<E>> implements Tree<E> {
      * @param i
      */
     public void put(E i) {
+        size += 1;
         if (i.compareTo(item) < 0) {
             if(isTree(left)) {
                 left.put(i);
@@ -94,5 +90,8 @@ public class BinaryTree<E extends Comparable<E>> implements Tree<E> {
             }
         }
         return false;
+    }
+    public int getSize() {
+        return this.size;
     }
 }
