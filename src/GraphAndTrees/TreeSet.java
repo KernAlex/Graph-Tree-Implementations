@@ -75,4 +75,7 @@ public class TreeSet<E extends Comparable<E>> {
             }
         }
     }
+    public int getSize(){
+        return size;
+    }
 }

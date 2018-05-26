@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/src/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+              <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -58,8 +58,8 @@
       <file leaf-file-name="TreeSet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GraphAndTrees/TreeSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="75" column="9" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+            <state relative-caret-position="384">
+              <caret line="77" column="11" lean-forward="false" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -98,8 +98,8 @@
         <option value="$PROJECT_DIR$/src/GraphAndTrees/binaryTree.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/GraphAndTrees/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/GraphAndTrees/TreeSet.java" />
         <option value="$PROJECT_DIR$/src/TreeTest.java" />
+        <option value="$PROJECT_DIR$/src/GraphAndTrees/TreeSet.java" />
       </list>
     </option>
   </component>
@@ -352,12 +352,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreeTest_treeSetTests - 2018.05.26 at 10h 16m 22s.xml">
-      <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_treeSetTests - 2018.05.26 at 10h 16m 55s.xml">
-      <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TreeTest_treeSetTests - 2018.05.26 at 10h 17m 11s.xml">
       <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
     </history-entry>
@@ -380,6 +374,12 @@
       <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TreeTest_treeSetTests - 2018.05.26 at 10h 51m 45s.xml">
+      <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_treeSetTests - 2018.05.26 at 11h 16m 21s.xml">
+      <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_treeSetTests - 2018.05.26 at 11h 19m 24s.xml">
       <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -511,8 +511,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphAndTrees/TreeSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="75" column="9" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+        <state relative-caret-position="384">
+          <caret line="77" column="11" lean-forward="false" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -528,7 +528,7 @@
     <entry file="file://$PROJECT_DIR$/src/TreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
           <folding />
         </state>
       </provider>
