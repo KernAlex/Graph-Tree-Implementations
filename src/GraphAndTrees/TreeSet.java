@@ -56,7 +56,12 @@ public class TreeSet<E extends Comparable<E>> {
             return false;
         }
         BinaryTree t = sentinal.getLeft();
-        
+        return hasHelper(t, item);
+    }
+    private boolean hasHelper(BinaryTree t, E item) {
+        if (t.getItem().compareTo(item) == 0) {
+            return true;
+        }
         return false;
     }
 }
