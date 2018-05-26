@@ -1,6 +1,6 @@
 package GraphAndTrees;
 
-public class BinaryTree<E> implements Tree<E>{
+public class BinaryTree<E extends Comparable<E>> implements Tree<E>{
     private E item;
     private BinaryTree left;
     private BinaryTree right;
