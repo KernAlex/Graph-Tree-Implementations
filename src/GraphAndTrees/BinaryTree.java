@@ -10,7 +10,12 @@ public class BinaryTree<E extends Comparable<E>> implements Tree<E>{
      * @param item
      */
     public BinaryTree(E item) {
+
         this.item = item;
+
+        left = null;
+        right = null;
+
     }
 
     /**

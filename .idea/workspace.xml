@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7703b7d5-e8fd-4945-87b0-33f149ad6ad4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/GraphAndTrees/TreeSet.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/GraphAndTrees/BinaryTree.java" afterPath="$PROJECT_DIR$/src/GraphAndTrees/BinaryTree.java" />
+      <change beforePath="$PROJECT_DIR$/src/GraphAndTrees/TreeSet.java" afterPath="$PROJECT_DIR$/src/GraphAndTrees/TreeSet.java" />
+      <change beforePath="$PROJECT_DIR$/src/TreeTest.java" afterPath="$PROJECT_DIR$/src/TreeTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +19,8 @@
       <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GraphAndTrees/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,8 +39,8 @@
       <file leaf-file-name="TreeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+            <state relative-caret-position="309">
+              <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -59,8 +59,8 @@
       <file leaf-file-name="TreeSet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GraphAndTrees/TreeSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="46">
+              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -172,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreeTest.constTest">
+  <component name="RunManager" selected="JUnit.TreeTest.treeSetTests">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -229,6 +229,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TreeTest" />
       <option name="METHOD_NAME" value="constTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TreeTest.treeSetTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="GraphsAndTrees" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TreeTest" />
+      <option name="METHOD_NAME" value="treeSetTests" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -301,16 +321,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Test" />
       <item index="1" class="java.lang.String" itemvalue="Application.TreeTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.TreeTest.constTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TreeTest.treeSetTests" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TreeTest.constTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TreeTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TreeTest.treeSetTests" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TreeTest.constTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TreeTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -331,17 +353,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreeTest_constTest - 2018.05.25 at 16h 27m 22s.xml">
-      <configuration name="TreeTest.constTest" configurationId="JUnit" />
+    <history-entry file="TreeTest_treeSetTests - 2018.05.26 at 10h 15m 45s.xml">
+      <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_constTest - 2018.05.25 at 16h 28m 02s.xml">
-      <configuration name="TreeTest.constTest" configurationId="JUnit" />
+    <history-entry file="TreeTest_treeSetTests - 2018.05.26 at 10h 16m 22s.xml">
+      <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_constTest - 2018.05.25 at 16h 28m 57s.xml">
-      <configuration name="TreeTest.constTest" configurationId="JUnit" />
+    <history-entry file="TreeTest_treeSetTests - 2018.05.26 at 10h 16m 55s.xml">
+      <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_constTest - 2018.05.25 at 16h 30m 41s.xml">
-      <configuration name="TreeTest.constTest" configurationId="JUnit" />
+    <history-entry file="TreeTest_treeSetTests - 2018.05.26 at 10h 17m 11s.xml">
+      <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_treeSetTests - 2018.05.26 at 10h 18m 22s.xml">
+      <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_treeSetTests - 2018.05.26 at 10h 18m 36s.xml">
+      <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_treeSetTests - 2018.05.26 at 10h 18m 59s.xml">
+      <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_treeSetTests - 2018.05.26 at 10h 19m 48s.xml">
+      <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_treeSetTests - 2018.05.26 at 10h 20m 57s.xml">
+      <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_treeSetTests - 2018.05.26 at 10h 22m 11s.xml">
+      <configuration name="TreeTest.treeSetTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -356,7 +396,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Style Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -462,14 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphAndTrees/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -478,18 +510,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphAndTrees/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphAndTrees/TreeSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="46">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding />
         </state>
       </provider>

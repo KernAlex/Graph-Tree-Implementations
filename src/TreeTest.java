@@ -1,6 +1,11 @@
 import GraphAndTrees.BinaryTree;
 import static org.junit.Assert.*;
+
+import GraphAndTrees.TreeSet;
 import org.junit.Test;
+
+import java.util.Random;
+
 public class TreeTest {
     public static void main(String[] args) {
         BinaryTree<Integer> temp = new BinaryTree<>(5);
@@ -16,5 +21,13 @@ public class TreeTest {
         temp.setLeft(new BinaryTree(3));
         expected = 3;
         assertEquals(expected, temp.getLeft().getItem());
+    }
+    @Test
+    public void treeSetTests() {
+        Random rand = new Random();
+        TreeSet<Integer> temp = new TreeSet<>();
+        for (int i = 0; i < 1000; i++) {
+            temp.put(rand.nextInt(1000));
+        }
     }
 }

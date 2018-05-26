@@ -6,15 +6,18 @@ public class TreeSet<E extends Comparable<E>> {
 
     public TreeSet() {
         size = 0;
-        sentinal = null;
+        sentinal = new BinaryTree(null);
     }
     public TreeSet(E item) {
+        sentinal = new BinaryTree(null);
         sentinal.setLeft(new BinaryTree(item));
         size = 1;
     }
     public void put(E item) {
+
         if (size == 0) {
             sentinal.setLeft(new BinaryTree(item));
+            size = 1;
             return;
         }
         BinaryTree t = sentinal.getLeft();
@@ -22,7 +25,6 @@ public class TreeSet<E extends Comparable<E>> {
     }
     private void putHelp(BinaryTree t, E item) {
         if (t.getItem().compareTo(item) == 0) {
-            size = 1;
             return;
         }
         if (t.getItem().compareTo(item) < 0) {
