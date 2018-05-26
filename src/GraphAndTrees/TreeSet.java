@@ -13,8 +13,12 @@ public class TreeSet<E extends Comparable<E>> {
         sentinal.setLeft(new BinaryTree(item));
         size = 1;
     }
-    public void put(E item) {
 
+    /**
+     * adds items to the key
+     * @param item
+     */
+    public void put(E item) {
         if (size == 0) {
             sentinal.setLeft(new BinaryTree(item));
             size = 1;
@@ -46,5 +50,13 @@ public class TreeSet<E extends Comparable<E>> {
                 return;
             }
         }
+    }
+    public boolean has(E item) {
+        if (size == 0) {
+            return false;
+        }
+        BinaryTree t = sentinal.getLeft();
+        
+        return false;
     }
 }
