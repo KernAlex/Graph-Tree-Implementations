@@ -29,5 +29,11 @@ public class TreeTest {
         for (int i = 0; i < 1000; i++) {
             temp.put(rand.nextInt(1000));
         }
+        temp = new TreeSet<>();
+        int[] t  = {10, 5, 15, 7, 12, 4, 16};
+        for (int i : t) {
+            temp.put(i);
+        }
+        assertEquals(true, temp.has(4));
     }
 }

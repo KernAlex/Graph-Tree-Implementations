@@ -61,7 +61,18 @@ public class TreeSet<E extends Comparable<E>> {
     private boolean hasHelper(BinaryTree t, E item) {
         if (t.getItem().compareTo(item) == 0) {
             return true;
+        }if (t.getItem().compareTo(item) < 0) {
+            if (t.getLeft() == null) {
+                return false;
+            } else {
+                return hasHelper(t.getLeft(), item);
+            }
+        } else {
+            if (t.getRight() == null) {
+                return false;
+            } else {
+                return hasHelper(t.getRight(), item);
+            }
         }
-        return false;
     }
 }
