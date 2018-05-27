@@ -36,6 +36,7 @@ public class TreeTest {
             temp.put(i);
         }
         temp.printInOrder();
+        temp.printMid();
         assertEquals(true, temp.has(4));
         assertEquals(false,temp.has(2));
         assertEquals(7, temp.getSize());

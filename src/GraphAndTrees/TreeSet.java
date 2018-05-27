@@ -95,4 +95,21 @@ public class TreeSet<E extends Comparable<E>> {
         BinaryTree t2 = t.getRight();
         pIOH(t2);
     }
+    public void printMid() {
+        if (size == 0) {
+            return;
+        }
+        BinaryTree t = sentinal.getLeft();
+        pMH(t);
+    }
+    private void pMH(BinaryTree t) {
+        if (t == null) {
+            return;
+        }
+        BinaryTree t1 = t.getLeft();
+        pIOH(t1);
+        System.out.println(t.getItem());
+        BinaryTree t2 = t.getRight();
+        pIOH(t2);
+    }
 }
