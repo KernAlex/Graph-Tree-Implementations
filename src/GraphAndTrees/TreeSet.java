@@ -31,7 +31,7 @@ public class TreeSet<E extends Comparable<E>> {
         if (t.getItem().compareTo(item) == 0) {
             return;
         }
-        if (t.getItem().compareTo(item) < 0) {
+        if (t.getItem().compareTo(item) > 0) {
             if (t.getLeft() == null) {
                 t.setLeft(new BinaryTree(item));
                 size += 1;
@@ -61,7 +61,7 @@ public class TreeSet<E extends Comparable<E>> {
     private boolean hasHelper(BinaryTree t, E item) {
         if (t.getItem().compareTo(item) == 0) {
             return true;
-        }if (t.getItem().compareTo(item) < 0) {
+        }if (t.getItem().compareTo(item) > 0) {
             if (t.getLeft() == null) {
                 return false;
             } else {
@@ -77,5 +77,22 @@ public class TreeSet<E extends Comparable<E>> {
     }
     public int getSize(){
         return size;
+    }
+    public void printInOrder() {
+        if (size == 0) {
+            return;
+        }
+        BinaryTree t = sentinal.getLeft();
+        pIOH(t);
+    }
+    private void pIOH(BinaryTree t) {
+        if (t == null) {
+            return;
+        }
+        System.out.println(t.getItem());
+        BinaryTree t1 = t.getLeft();
+        pIOH(t1);
+        BinaryTree t2 = t.getRight();
+        pIOH(t2);
     }
 }
