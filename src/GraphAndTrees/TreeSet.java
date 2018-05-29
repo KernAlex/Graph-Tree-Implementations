@@ -101,15 +101,16 @@ public class TreeSet<E extends Comparable<E>> {
         }
         BinaryTree t = sentinal.getLeft();
         pMH(t);
+        System.out.println("");
     }
     private void pMH(BinaryTree t) {
         if (t == null) {
             return;
         }
         BinaryTree t1 = t.getLeft();
-        pIOH(t1);
-        System.out.println(t.getItem());
+        pMH(t1);
+        System.out.print(t.getItem() + " ");
         BinaryTree t2 = t.getRight();
-        pIOH(t2);
+        pMH(t2);
     }
 }

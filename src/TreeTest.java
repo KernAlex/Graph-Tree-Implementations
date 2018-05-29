@@ -29,14 +29,16 @@ public class TreeTest {
         for (int i = 0; i < 1000; i++) {
             temp.put(rand.nextInt(1000));
         }
-        temp.printInOrder();
+        //temp.printInOrder();
+        temp.printMid();
         temp = new TreeSet<>();
+
         int[] t  = {10, 5, 15, 7, 12, 4, 16};
         for (int i : t) {
             temp.put(i);
         }
-        temp.printInOrder();
-        temp.printMid();
+        //temp.printInOrder();
+        //temp.printMid();
         assertEquals(true, temp.has(4));
         assertEquals(false,temp.has(2));
         assertEquals(7, temp.getSize());
